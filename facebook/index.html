@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Juan A. Hernandez" content="Proyecto de POO">
+    <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Facebook</title>
+</head>
+
+<body>
+<div class="container-fluid m-0">
+    <div class="row">
+    <nav class="navbar navbar-expand-xl navbar-dark fixed-top barra-nav">
+        
+        <a class="navbar-brand" href="#" class="img-logo2"><img src="img/icon-white.png" alt="" class="img-logo2"></a> 
+        <a class="navbar-brand" href="#" class="img-logo"><img src="img/logo.png" alt="" class="img-logo"></a>               
+        <div class="div-nav">
+            <table>
+                <tbody>
+                    <tr class="tabla-nav">
+                        <th scope="row"></th>
+                        <td><a class="navbar-brand" href="#" class="img-logo"><img src="img/icon-white.png" alt="" class="img-logo3"></a></td>
+                        <td><input class="form-control inicio-index" type="text" placeholder="Email o telefono"
+                                aria-label="Search"></td>
+                        <td><input class="form-control inicio-index" type="text" placeholder="Constraseña"
+                                aria-label="Search"></td>
+                        <td><button class="btn boton-index " type="submit" id="iniciar">Iniciar Sesion</button></td>
+                    </tr>
+                    <tr class="tabla-nav">
+                        <th scope="row"></th>
+                        <td></td>
+                        <td></td>
+                        <td><a href="" class="enlace-index">¿Olvido su cuenta?</a></td>
+                        <td></td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </nav>
+</div>
+</div>
+    <br>
+    <br>
+    <br>
+
+    <main role="main">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Main jumbotron for a primary marketing message or call to action -->
+                <div class="jumbotron col-xl-6" id="contenidoVariante">
+                        <h5 style="font-weight: bold;">Facebook te ayuda a comunicarte y compartir con las personas que forman parte de tu vida.</h5>
+                        <img src="img/conect.png" alt="">
+                </div> 
+                <div class="jumbotron col-xl-6 formulario">
+                        <form>
+                            <h1 style="font-weight: bold;">Crea una cuenta</h1>
+                            <h3>Es rápido y fácil.</h3>
+                            <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <input type="text" class="form-control" id="fnombre" placeholder="Nombre">
+                              </div>
+                              <div class="form-group col-md-6">
+                                <input type="text" class="form-control" id="fapellido" placeholder="Apellido">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <input type="text" class="form-control" id="fcorreo" placeholder="Numero de celular o correo electronico">
+                            </div>
+                            <div class="form-group">
+                              <input type="text" class="form-control" id="fcontrasena" placeholder="Constraseña nueva">
+                            </div>
+                            <div class="form-group">
+                                <label class="label-fecha">Fecha de nacimiento</label><br>                                  
+                                <select name="select" id="dia" class=""></select>
+                                <select name="select" id="mes" class=" "></select>
+                                <select name="select" id="anio" class=" "></select>
+                            </div>
+                            <div class="form-group">
+                                <label class="label-fecha control-label input-group">Sexo</label>                                
+                                    <label class="radio-inline radio-sexo">
+                                        <input type="radio" name="sexo" value="Mujer"> Mujer </label>
+                                     <label class="radio-inline radio-sexo">
+                                        <input type="radio" name="sexo" value="Hombre" required> Hombre </label>
+                                     <label class="radio-inline radio-sexo">
+                                        <input type="radio" name="sexo" value="Personal" checked> Personalizado </label>   
+                            </div>  
+                            <div class="form-group mensaje">
+                                <p>Al hacer clic en "Registrarte", aceptas nuestras <a href="">Condiciones</a>, la <a href=""> Política de datos</a> y la 
+                                    <a href="">Política de cookies</a> . Es posible que te enviemos notificaciones por SMS, que puedes desactivar cuando quieras.</p>
+                            </div>
+                            <button type="submit" class="btn registrate">Registrate</button>
+                            <hr>
+                             </form>
+                            </div>
+                            
+            </div>
+                             
+        </div>
+        
+
+
+        <!-- /container -->
+
+    </main>
+
+    <br>
+    <footer class="container-fluid" style="background-color: white; margin-bottom: 0px;">
+        <br>
+        <div id="idioma"></div>
+        <hr>
+        <div id="pie"></div>
+        <br>
+        <p> Facebook &copy; 2020</p>
+    </footer>
+
+    
+</body><script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+<script src="js/controlador.js"></script>
+</html>
