@@ -53,5 +53,16 @@ function enlace(){
 enlace();
 
 // PARTE CENTRO
-function estado
+function estado(){
+    const nombre = ["Demi Novato", "Diario Diez", "UEFA", "Bob Esponja", "Madre"];
+    const foto =["demi", "diez", "uefa", "bob", "mama", "unah"];
+
+    for (let i = 0; i < nombre.length; i++) {
+        document.getElementById('estados').innerHTML+=
+        `<div class="div-estado");">
+            <img id="estado${i}"src="img/perfiles/${foto[i]}.jpg" alt="${nombre[i]}" class="img-estado">
+        </div>`;
+    }
+}
+estado();
 
