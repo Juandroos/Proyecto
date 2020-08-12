@@ -24,7 +24,7 @@
 }
 .img-logo {
   width: 170px;
-  margin-left: 80px;
+  margin-left: 120px;
   padding: 0px;
 }
 .inicio-index{
@@ -51,6 +51,7 @@
   width: 100px!important;
   height: 25px!important;
   margin-top: 10px;
+  text-rendering: optimizelegibility;
 }
 #iniciar:hover{
   background-color: rgb(32, 73, 163);
@@ -58,9 +59,9 @@
 .enlace-index{
   padding: 0px;
   margin-top: 0px!important;
-  margin-left: 13px!important;
+  margin-left: px!important;
   color: rgb(204, 202, 202);
-  font-size: 10px;
+  font-size: 15px;
 }
 .enlace-index:hover{
   text-decoration: underline;
@@ -74,11 +75,10 @@
 .img-logo3{
   display:none;
 }
-
+/*rgb(233, 235, 238)*/
 /* INDEX.HTML - BODY*/
 body {
   font-family: 'Mukta', sans-serif;
-  background-color: rgb(233, 235, 238);
   overflow: scroll;
   clear: both;
 }
@@ -132,17 +132,33 @@ body {
   text-decoration: underline;
   color: rgb(56, 88, 152);
 }
+.footer-inicio{
+  margin-left: 120px;
+  margin-right: 120px;
+  padding-top: 5px;
+
+}
 /* INDEX.HTML - RESPONSY*/
-@media (max-width: 855px) { 
+@media (max-width: 1183px) {
+  #contenidoVariante{
+    display: none;
+  }
+  .formulario{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 894px) { 
   .img-logo{
     display: none;
   }
   .img-logo2{
     display: block;
     width: 40px;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-top: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
   }
   .img-logo3{
     display: none;
@@ -161,11 +177,9 @@ body {
     margin: 0px;
     padding: 0px;
   }
-
 }
 
-
-@media(max-width: 655px) {
+@media(max-width: 695px) {
   .img-logo{
     display: none;
   }
@@ -194,8 +208,37 @@ body {
   .barra-nav{
     height: 85px;
   }
+  .formulario{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .footer-inicio{
+    display: none;
+  }
   
 }
+
+@media(max-width: 345px) {
+  .formulario{
+    margin: 0px;
+    padding: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
