@@ -1,5 +1,5 @@
 /* INICIO */
-/* HOME */
+/* HOME IZQUIERDA*/
 .img-barra {
   width: 36px;
   margin-left: 3px;
@@ -48,7 +48,14 @@
 .enlace-inicio:hover {
     color: rgb(119, 116, 116);
     font-size: 14px;
-  }
+}
+/* #inicioIzquierda{
+  height: 100%;
+  max-width: 100%;
+  overflow-y:scroll;
+} */
+
+/* HOME CENTRO*/
 .div-estado{
     width: 107.5px;
     height: 190px;
@@ -63,14 +70,166 @@
     width: 100%;
     height:100%;
     object-fit: cover;
-
+    position: relative;
 }
 .manejo-usuario{
-  width: 45px;
-  height: 45px;
+  width: 47px;
+  height: 47px;
   border-radius: 100px;
 }
+.div-estado2{
+  background-color: rgb(255, 255, 255)!important;
+  border:rgb(209, 208, 208) 1px solid;
+  border-radius: 10px;
+}
+.texto-estado{
+  position: absolute;
+  top: 0px; 
+  color: antiquewhite;
+  background-color: rgba(0, 0, 0, 0.37);
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 135px;  
+}
+.input-estado{
+  height: 46px;
+  border-radius: 25px!important;
+  margin-left: 10px!important;
+  align-content: center;
+  background-color: rgb(240, 242, 245);
+  color:#6f7174;
+  font-weight: 400;
+  font-size: 18px;
+  
+}
+.input-estado:hover{
+  background-color: rgb(204, 206, 209);
+}
+.fa-video{
+  color: rgb(218, 12, 12);
+  font-size: 26px;
+  vertical-align: middle;
+}
+.fa-images{
+  color: rgb(26, 196, 26);
+  font-size: 26px;
+  vertical-align: middle;
+}
+.fa-smile-wink{
+  color: rgb(211, 211, 3);
+  font-size: 26px;
+  vertical-align: middle;
+}
+.span-estado{
+  position: static;
+  font-weight: bold;
+  font-size: 13px;
+  color: rgb(128, 130, 133);
+  margin-left: 7px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.div-span-estado{
+  padding: 6px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+.div-span-estado:hover{
+  background-color: rgb(240, 242, 245);;
+}
 
+.fa-plus-circle{
+  color: rgb(197, 34, 116);
+  vertical-align: middle;
+  font-size: 20px;
+}
+.div-sala{
+  margin-right: auto;
+  vertical-align: middle;
+}
+.img-sala{
+  border-radius: 100px;
+  margin-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 40px;
+  object-fit: cover;
+  height: 40px;
+}
+.img-sala:hover{
+  background-color: rgba(111, 113, 116, 0.192);
+}
+/*MURO*/
+.img-muro{
+  border-radius: 100px;
+  width: 50px;
+  object-fit: cover;
+  height: 50px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.titulo-muro{
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.fa-check-circle{
+  color: rgb(26, 198, 221);
+  margin-top: 7px;
+  height: 16px!important;
+
+}
+.fa-check-circle:hover{
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.411);
+  border-radius: 1px;
+}
+.subtitulo-muro{
+  color: rgb(139, 143, 150);
+  font-size: 13px;
+}
+.img-muro-ver{
+  width: max-content;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+}
+.fa-muro{
+  color: rgb(152, 156, 156);
+  font-size: 20px;
+}
+.muro-accion{
+  font-weight: 500;
+  color: rgb(147, 153, 153);
+  text-align: center;
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 5px;
+}
+.muro-accion:hover{
+  background-color: rgb(225, 224, 226)!important;
+}
+.img-publicidad{
+  width: 150px;
+  border-radius: 10px;
+}
+.div-publicidad{
+  border-radius: 7px;
+  padding: 10px;
+}
+.div-publicidad:hover{
+  background-color: rgb(229, 226, 226);
+}
+/* HOME DERECHA*/
 /*RESPONS*/
 @media (min-width: 1200px) {
   
@@ -84,6 +243,9 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
     #inicioIzquierda {
         display: none;
+    }
+    #estado4{
+      display: none;
     }
     
 }
@@ -103,4 +265,14 @@
   #inicioIzquierda {
     display: none;
   }
+  .div-estado2{
+    margin: 0px!important;
+  }
+  #estados{
+    display: none;
+  }
+  .div-estado2{
+    margin-top: 10px!important;
+  }
+
 }

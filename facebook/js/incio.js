@@ -59,10 +59,41 @@ function estado(){
 
     for (let i = 0; i < nombre.length; i++) {
         document.getElementById('estados').innerHTML+=
-        `<div class="div-estado");">
-            <img id="estado${i}"src="img/perfiles/${foto[i]}.jpg" alt="${nombre[i]}" class="img-estado">
+        `<div id="estado${i}" class="div-estado");">
+            <img src="img/perfiles/${foto[i]}.jpg" alt="${nombre[i]}" class="img-estado">
+            <h6 class="texto-estado">${nombre[i]}</h6>
         </div>`;
     }
 }
 estado();
 
+function sala(){
+    const usuario=["homero", "it", "katy", "thor", "pikachu", "ang", "anabel", "usher"];
+    for (let i = 0; i < usuario.length; i++) {
+      document.getElementById('salaUsuarios').innerHTML+=
+      `<img src="img/usuarios/${usuario[i]}.jpg" alt="${usuario[i]}" class="img-sala">`;
+    }
+}
+sala();
+
+function muro(){
+
+}
+function usuarioChat(){
+    
+    const barraIzquierda = ["COVID-19: Centro de Información", "Amigos", "Messenger", "Grupos", "Compra y Venta", "Videos"];
+
+    for (let i = 0; i < barraIzquierda.length; i++) {
+        document.getElementById('chatContactos').innerHTML +=
+            `<tr class="iluminar">
+                <td class="elemento-uno"><img src="img/icon/${i}.png" alt="${barraIzquierda[i]}" class="img-barra"></td>
+                <td class="td-contenido">${barraIzquierda[i]}</td>   
+            </tr>`;
+    }
+    document.getElementById('chatContactos').innerHTML +=
+    `<tr class="iluminar" id="verMas" onclick="inicioIzquierdaB()">
+                  <td class="elemento-uno img-barra"><i class="fas fa-chevron-circle-down fa-colors"></i></td>
+                  <td class="td-contenido">Ver mas</td>   
+                </tr>`;
+}
+usuarioChat();
