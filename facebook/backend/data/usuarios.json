@@ -1,0 +1,93 @@
+[
+    {
+        "id": 0,
+        "rol": 0,
+        "nombre": "Juan",
+        "apellido": "Hernandez",
+        "password": "comostas",
+        "sexo": "Masculino",
+        "correo": "juan1@gmail.com",
+        "nacimiento": "02-07-1986",
+        "info": 0,
+        "urlPerfiil": "0",
+        "urlMuro": "00"
+    },
+    {
+        "id": 1,
+        "rol": 1,
+        "nombre": "Kevin",
+        "apellido": "Hernandez",
+        "password": "comotenes",
+        "sexo": "Masculino",
+        "correo": "kevin1@gmail.com",
+        "nacimiento": "02-08-1986",
+        "info": 1,
+        "urlPerfiil": "1",
+        "urlMuro": "11"
+    },
+    {
+        "id": 2,
+        "rol": 1,
+        "nombre": "Noe",
+        "apellido": "Hernandez",
+        "password": "comotenes",
+        "sexo": "Masculino",
+        "correo": "kevin1@gmail.com",
+        "nacimiento": "02-08-1986",
+        "info": 2,
+        "urlPerfiil": "2",
+        "urlMuro": "22"
+    },
+    {
+        "id": 3,
+        "rol": 1,
+        "nombre": "Noe",
+        "apellido": "Hernandez",
+        "password": "comotenes",
+        "sexo": "Masculino",
+        "correo": "kevin1@gmail.com",
+        "nacimiento": "09-09-2004",
+        "info": 3,
+        "urlPerfiil": "3",
+        "urlMuro": "33"
+    },
+    {
+        "id": 4,
+        "rol": 1,
+        "nombre": "Erick",
+        "apellido": "Maarin",
+        "password": "hohol",
+        "sexo": "value",
+        "correo": "ercik@gmail.com",
+        "nacimiento": "12-8-2016",
+        "info": 4,
+        "urlPerfiil": 4,
+        "urlMuro": "44"
+    },
+    {
+        "id": 5,
+        "rol": 1,
+        "nombre": "Malcom",
+        "apellido": "New",
+        "password": "123.456",
+        "sexo": "Sin Etiquetas",
+        "correo": "malcom@gmail.com",
+        "nacimiento": "8-1-1996",
+        "info": 5,
+        "urlPerfiil": 5,
+        "urlMuro": "55"
+    },
+    {
+        "id": 6,
+        "rol": 1,
+        "nombre": "Carlos",
+        "apellido": "Acosta",
+        "password": "petunia",
+        "sexo": "Masculino",
+        "correo": "carlos@gmail.com",
+        "nacimiento": "23-8-1989",
+        "info": 6,
+        "urlPerfiil": 6,
+        "urlMuro": "66"
+    }
+]

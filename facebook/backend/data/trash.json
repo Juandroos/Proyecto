@@ -1,0 +1,71 @@
+[{"post": "0",
+"amigos": "0",
+"mensajes": "0",
+"paginasPropias": "0",
+"paginasSigue": "0",
+"Menciones": "0"
+}]
+[[
+    {
+        "id": 1,
+        "amigos": [      
+            {"nombre":"Spider","id":9},
+            {"nombre":"Annabell","id":2},
+            {"nombre":"Ang","id":3},
+            {"nombre":"Carman","id":4},
+            {"nombre":"Homero","id":5},
+            {"nombre":"IT","id":6},
+            {"nombre":"Katnis","id":7},
+            {"nombre":"Katy","id":8}
+        ]
+    },{
+        "id": 2,
+        "amigos": [      
+            {"nombre":"Spider","id":9},
+            {"nombre":"Annabell","id":1},
+            {"nombre":"Ang","id":3},
+            {"nombre":"Carman","id":4},
+            {"nombre":"Homero","id":5},
+            {"nombre":"IT","id":6},
+            {"nombre":"Katnis","id":7},
+            {"nombre":"Katy","id":8}
+        ]
+    },{
+        "id": 3,
+        "amigos": [      
+            {"nombre":"Spider","id":9},
+            {"nombre":"Annabell","id":2},
+            {"nombre":"Ang","id":1},
+            {"nombre":"Carman","id":4},
+            {"nombre":"Homero","id":5},
+            {"nombre":"IT","id":6},
+            {"nombre":"Katnis","id":7},
+            {"nombre":"Katy","id":8}
+        ]
+    },{
+        "id": 4,
+        "amigos": [      
+            {"nombre":"Spider","id":9},
+            {"nombre":"Annabell","id":2},
+            {"nombre":"Ang","id":3},
+            {"nombre":"Carman","id":1},
+            {"nombre":"Homero","id":5},
+            {"nombre":"IT","id":6},
+            {"nombre":"Katnis","id":7},
+            {"nombre":"Katy","id":8}
+        ]
+    },
+    {
+        "id": 5,
+        "amigos": [      
+            {"nombre":"Spider","id":9},
+            {"nombre":"Annabell","id":2},
+            {"nombre":"Ang","id":3},
+            {"nombre":"Carman","id":4},
+            {"nombre":"Homero","id":1},
+            {"nombre":"IT","id":6},
+            {"nombre":"Katnis","id":7},
+            {"nombre":"Katy","id":8}
+        ]
+    }
+]]

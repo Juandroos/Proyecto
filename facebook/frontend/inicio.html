@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="Juan A. Hernandez" content="Proyecto de POO">
   <title>Facebook</title>
-  <link rel="shortcut icon" href="img/icon2.ico" image/x-icon">
+  <link rel="shortcut icon" href="img/icon2.ico" image="/x-icon">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/334b313283.js" crossorigin="anonymous"></script>
@@ -14,28 +14,33 @@
 </head>
 
 <body style="background-color: #F0F2F5;">
-  <nav>
-    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-      
-      <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
-        aria-controls="nav-home" aria-selected="true">Home</a>
-      <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
-        aria-controls="nav-profile" aria-selected="false">Profile</a>
-      <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
-        aria-controls="nav-contact" aria-selected="false">Contact</a>
+  <nav class="nav-barra">
+    <div class="nav nav-tabs pl-4" id="nav-tab" role="tablist">
+      <img src="img/icono-inicio.jpg" class="img-barra" alt="logo">
+      <input type="text" class="input-barra form-control" placeholder=" Buscar">
+
+      <a class="nav-item nav-link active ml-5 link-barra" id="nav-inicio-tab" data-toggle="tab" href="#nav-inicio" role="tab"
+        aria-controls="nav-inicio" aria-selected="true"><i class="fas fa-home fa-barra"></i></a>
+      <a class="nav-item nav-link link-barra" id="nav-video-tab" data-toggle="tab" href="#nav-video" role="tab"
+        aria-controls="nav-video" aria-selected="false"><i class="fas fa-play fa-barra"></i></a>
+      <a class="nav-item nav-link link-barra" id="nav-tienda-tab" data-toggle="tab" href="#nav-tienda" role="tab"
+        aria-controls="nav-tienda" aria-selected="false"><i class="fas fa-store fa-barra"></i></a>
+      <a class="nav-item nav-link link-barra" id="nav-grupo-tab" data-toggle="tab" href="#nav-grupo" role="tab"
+        aria-controls="nav-grupo" aria-selected="false"><i class="fas fa-users fa-barra"></i></a>
+      <a class="nav-item nav-link link-barra" id="nav-videojuego-tab" data-toggle="tab" href="#nav-videojuego" role="tab"
+        aria-controls="nav-videojuego" aria-selected="false"><i class="fas fa-gamepad fa-barra"></i></a>
     </div>
   </nav>
   <div class="tab-content" id="nav-tabContent">
-    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+    <div class="tab-pane fade show active" id="nav-inicio" role="tabpanel" aria-labelledby="nav-inicio-tab">
       <div class="container-fluid">
         <div class="row">
 
-          <div id="inicioIzquierda" class=" col-lg-3 p-3">
+          <div id="inicioIzquierda" class=" col-lg-2 p-3">
             <table>
-              <thead>
-                <tr class="iluminar">
-                  <td class="elemento-uno"><img src="img/icon/0.png" alt="usuario" class="img-barra"></td>
-                  <td class="td-contenido">Juan Hernandez</td>
+              <thead> 
+                <tr class="iluminar"  id="encabezado">
+                  
                 </tr>
               </thead>
               <tbody id="barraIzquierda"></tbody>
@@ -63,7 +68,7 @@
             </div>
           </div>
 
-          <div id="inicioCentro" class="col-12 col-sm-12 col-md-8 col-lg-6 p-3">
+          <div id="inicioCentro" class="col-12 col-sm-12 col-md-10 col-lg-7 p-3">
             <div class="container-fluid">
               <div class="row mt-3" id="estados">
               </div>
@@ -124,39 +129,58 @@
             </div>
           </div>
 
-          <div id="inicioDerecha" class="div-centro col-md-4 col-lg-3 pt-4 mt-2" >
+          <div id="inicioDerecha" class="div-centro col-md-2 col-lg-3 pt-4 mt-2" >
             <div>
               <h5 class="titulo-h6 pl-2">Publicidad</h5>
-              <a href="" ></a>
-              <div class="div-publicidad">
+              <a href="" >
+               <div class="div-publicidad">
                 <h6>Claro que tienes mas.</h6>
                 <p class="enlace-inicio" style="margin-right:auto">www.claro.hn</p>
                 <img src="img/claro.jpg" alt="Claro" class="img-publicidad">
+               </div>
+              </a>
+            </div>
+            
+            
+            <hr>
+
+            <div class="pl-3">
+              <div class="container">
+                <div class="row">
+                  <h5 class="titulo-h6" style="margin-right: auto;">Contactos</h5>
+                  <i class="fas fa-plus chat-icon-top elemento-uno"></i>
+                  <i class="fas fa-search chat-icon-top"></i>
+                  <i class="fas fa-caret-down chat-icon-top"></i>
+                </div>
               </div>
-            </a>
-              <hr>
 
               <table>
                 <thead>
                   <tr class="iluminar">
-                    <td ></td>
                     <td class="td-contenido"></td>
                   </tr>
                 </thead>
                 <tbody id="chatContactos"></tbody>
               </table>
-              <hr>
-              <h5 class="titulo-h6 pl-2">Conversaciones en Grupo</h5>
 
-              </div>
             </div>
-          </div>
+            <hr>
+            <div class="pl-3 crear-grupo">
+                <h5 class="titulo-h6">Conversaciones en Grupo</h5>
+                <div class="row chat-crear td-contenido iluminar">
+                  <i class="fas fa-plus-circle mr-2"></i>
+                  Crear nuevo grupo
+                </div>
+            </div>
+            </div>
         </div>
       </div>
     </div>
 
-    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">..MEDIO.</div>
-    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">..ADIOS.</div>
+    <div class="tab-pane fade" id="nav-video" role="tabpanel" aria-labelledby="nav-video-tab">..VIDEO.</div>
+    <div class="tab-pane fade" id="nav-tienda" role="tabpanel" aria-labelledby="nav-tienda-tab">..TIENDA.</div>
+    <div class="tab-pane fade" id="nav-grupo" role="tabpanel" aria-labelledby="nav-grupo-tab">..GRUPO.</div>
+    <div class="tab-pane fade" id="nav-videojuego" role="tabpanel" aria-labelledby="nav-videojuego-tab">..VIDEOJUEGO.</div>
   </div>
 
 
@@ -170,7 +194,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
-  <script src="js/incio.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="js/inicio.js"></script>
 </body>
 
 </html>

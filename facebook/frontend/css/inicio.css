@@ -1,5 +1,58 @@
 /* INICIO */
+/* NAV */
+.nav-barra{
+  background-color:white;
+  border: 0px solid white!important;
+}
+.img-barra{
+  margin: 5px;
+  width: 20px;
+  border-radius: 100px;
+}
+.input-barra{
+  margin: 7px;
+  margin-top: 10px;
+  width: 250px;
+  height: 35px;
+  border: 0px solid white;
+  background-color: rgb(240, 242, 245);
+  border-radius: 20px;
+}
+.input-barra:hover{
+  border: 0px solid white!important;
+  background-color: rgb(240, 242, 245);
+  border-radius: 20px;
+}
+.link-barra{
+  color: rgb(101, 103, 107)!important;
+}
+.link-barra:link{
+  color: rgb(24, 119, 242)!important;
+  /*border-bottom: 10px solid turquoise!important; */
+}
+.link-barra:hover{
+  border: 0px solid white!important;
+  background-color: rgb(240, 242, 245);
+}
+.fa-barra{
+  font-size: 25px;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+  /*color: rgb(24, 119, 242); */ 
+}
+
 /* HOME IZQUIERDA*/
+.img-barra-user{
+  margin-left: 3px;
+  margin-right: 6px;
+  width: 40px!important;
+  height: 40px!important;
+  vertical-align: middle;
+  border-radius: 100px;
+  object-fit: cover;
+}
 .img-barra {
   width: 36px;
   margin-left: 3px;
@@ -194,8 +247,7 @@
   font-size: 13px;
 }
 .img-muro-ver{
-  width: max-content;
-  max-height: 600px;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   object-fit: cover;
@@ -230,6 +282,38 @@
   background-color: rgb(229, 226, 226);
 }
 /* HOME DERECHA*/
+.fa-caret-down{
+  padding-left: 8px!important; 
+}
+.fa-circle{
+  color: green;
+  margin-left: auto;
+  font-size: x-small;
+}
+.chat-icon-top{
+  color: rgb(147, 142, 153);
+  margin-right: 5px;
+  border-radius: 100px;
+  width: 25px!important;
+  height: 25px!important;
+  font-size: 15px;
+  padding: 5.5px;
+}
+.chat-icon-top:hover{
+  background-color: rgb(214, 211, 216); 
+}
+.fa-plus-circle{
+  color: rgb(147, 142, 153);
+  margin-top: 4px;
+}
+.chat-crear{
+  padding:15px;
+  padding-left: 10px;
+  margin:4px;
+  border-radius: 7px;
+  font-size:16px;
+}
+
 /*RESPONS*/
 @media (min-width: 1200px) {
   
@@ -238,16 +322,31 @@
   #estado4{
     display: none;
   }
+  #inicioIzquierda {
+    display: none;
+}
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    #inicioIzquierda {
+    #inicioDerecha {
         display: none;
     }
+    #inicioIzquierda {
+      display: none;
+  }
     #estado4{
       display: none;
     }
-    
+    .img-muro-ver{
+      width: min-content;
+      margin-left: auto;
+      margin-right: auto;
+      object-fit: cover;
+    }
+    .inicioDerecha{
+      margin-right: auto;
+      margin-left: auto;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {

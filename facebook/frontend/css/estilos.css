@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600&display=swap');
 /* INDEX.HTML - NAV*/
-
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -136,8 +135,8 @@ body {
   margin-left: 120px;
   margin-right: 120px;
   padding-top: 5px;
-
 }
+
 /* INDEX.HTML - RESPONSY*/
 @media (max-width: 1183px) {
   #contenidoVariante{
